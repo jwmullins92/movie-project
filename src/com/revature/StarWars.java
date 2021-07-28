@@ -4,8 +4,8 @@ public class StarWars extends Movie{
     private String threeWordReview;
     private String favoriteCharacter;
 
-    public StarWars(String title, int yearOfRelease, double score, String threeWordReview, String favoriteCharacter) {
-        super(title, yearOfRelease, score);
+    public StarWars(String title, int yearOfRelease, double myScore, String threeWordReview, String favoriteCharacter) {
+        super(title, yearOfRelease, myScore);
         this.threeWordReview = threeWordReview;
         this.favoriteCharacter = favoriteCharacter;
     }

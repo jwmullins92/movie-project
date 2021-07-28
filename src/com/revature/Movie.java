@@ -19,11 +19,11 @@ public class Movie {
         return yearOfRelease;
     }
 
-    public double getScore() {
+    public double getMyScore() {
         return myScore;
     }
 
-    public void setScore(double myScore) {
+    public void setMyScore(double myScore) {
         this.myScore = myScore;
     }
 }

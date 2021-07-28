@@ -28,7 +28,7 @@ public class FreeSolo extends Movie{
         this.favoriteMoment = favoriteMoment;
     }
 
-    public boolean gotSweatyPalms() {
+    public boolean getGotSweatyPalms() {
         return gotSweatyPalms;
     }
 }

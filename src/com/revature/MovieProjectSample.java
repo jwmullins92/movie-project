@@ -21,6 +21,7 @@ public class MovieProjectSample {
         System.out.println("\n");
 
         // Prints selected information about Free Solo
-        System.out.println("Title: " + freeSolo.getTitle() + "\nMy Score: " + freeSolo.getScore() + "\nThree Word Review: " + freeSolo.getThreeWordReview() + "\nFavorite Moment: " + freeSolo.getFavoriteMoment());
+        System.out.println("Title: " + freeSolo.getTitle() + "\nMy Score: " + freeSolo.getMyScore() + "\nThree Word Review: " + freeSolo.getThreeWordReview() + "\nFavorite Moment: " + freeSolo.getFavoriteMoment());
+
     }
 }
